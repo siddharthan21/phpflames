@@ -1,0 +1,31 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+
+   
+    background-image: url(/assets/brand/1318225.png);
+    background-size: 100% 100%;
+  }
+  
+  .container {
+    color:rgb(255, 255, 255) ;
+
+    border:1px solid beige ;
+    border-radius: 1.5rem;
+    max-width: 800px;
+    margin-top: 12rem;
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 3rem;
+    word-spacing: 2px;
+    letter-spacing: .8px;
+    line-height: 2rem;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: bolder;
+  }

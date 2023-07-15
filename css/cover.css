@@ -1,0 +1,77 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; 
+}
+
+body {
+  background-image: url(/assets/brand/cropped-1600-900-670920.jpg);
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+  background-size: 110% 100%;
+}
+
+.nav-masthead .nav-link {
+  color: antiquewhite; 
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 2rem;
+  margin-right: 87rem;
+}
+
+
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+      .form-signin {
+        margin-left: 50rem;
+        max-width: 330px;
+        padding: 16px;
+        color: black;
+
+      }
+      
+    
+      #floatingPassword {
+  
+        margin-bottom: 10px;
+        border-bottom-right-radius: 9px;
+        border-bottom-left-radius: 9px;
+
+      }
+      
+      #floatingInput {
+        margin-bottom: 10px;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+      }
+
+#btn{
+  margin-bottom: 15rem;
+  background-color:rgb(124, 45, 25);
+  border-color: black;
+}
+h1{
+  font-style: italic;
+  color: black;
+}
+h3{
+  border: 1px dotted rgb(0, 0, 0);
+  padding: 1rem;
+  border-radius: 2rem;
+}

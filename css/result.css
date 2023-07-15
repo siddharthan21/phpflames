@@ -1,0 +1,23 @@
+body{
+    background-image: url(/assets/brand/cropped-1600-900-1174695.png);
+}
+        .quote-card {
+            color: whitesmoke;
+            width: 300px;
+            background-color:transparent;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+        .quote-text {
+            font-size: 20px;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        .quote-author {
+            font-size: 14px;
+            font-weight: bold;
+        }
