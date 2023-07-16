@@ -13,7 +13,7 @@ include_once 'head.php';
             $qoute = "A true friend is a companion who will always be there, through thick and thin.";
             break;
         case 'l':
-            $l='Love';
+            $f='Love';
             $qoute = "Love is the most beautiful feeling that brings joy and meaning to life.";
             break;
         case 'a':
@@ -44,6 +44,7 @@ include_once 'head.php';
 <main >
     
     <div class="quote-card">
+        <h3><?php echo $f ?></h3>
         <p class="quote-text"><?php echo $qoute; ?></p>
         <p class="quote-author"><?php echo $author; ?></p>
     </div>

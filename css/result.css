@@ -8,7 +8,10 @@ body{
             background-color:transparent;
             padding: 20px;
             border-radius: 5px;
-            text-align: center;
+            text-align: center;text-transform:capitalize;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+
             margin: 0 auto;
         }
         
@@ -26,6 +29,6 @@ body{
             bottom: 10px;
             margin-bottom: .8rem;
             margin-left: 80%;
-            color: wheat;
+            color: whitesmoke;
             font-weight: bold;
         }
