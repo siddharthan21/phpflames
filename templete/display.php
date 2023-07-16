@@ -38,6 +38,7 @@ include_once 'head.php';
 
 ?>
 <head>
+<link rel="icon" type="image/x-icon" href="/assets/brand/favicon.ico">
     <link rel="stylesheet" href="/css/result.css">
 </head>
 <main >
@@ -45,5 +46,9 @@ include_once 'head.php';
     <div class="quote-card">
         <p class="quote-text"><?php echo $qoute; ?></p>
         <p class="quote-author"><?php echo $author; ?></p>
+    </div>
+
+    <div id="back">
+        <a href="/index.php"><- - Want To Go Back?</a>
     </div>
 </main>

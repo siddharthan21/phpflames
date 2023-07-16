@@ -71,7 +71,7 @@ h1{
   color: black;
 }
 h3{
-  border: 1px dotted rgb(0, 0, 0);
+  border: 1px dotted whitesmoke;
   padding: 1rem;
   border-radius: 2rem;
 }
